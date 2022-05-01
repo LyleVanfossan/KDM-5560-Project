@@ -1,7 +1,6 @@
-import json, logging, random, pickle, sys, time
+import json, pickle, sys
 import numpy as np
 from tensorflow import keras
-from sklearn.preprocessing import LabelEncoder
 from flask import Flask, render_template, request, redirect, url_for, Markup
 from chatbot_trainer import retrain_model
 from utils.trainingDataUtils import append_tokens

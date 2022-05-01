@@ -1,9 +1,4 @@
-import json, logging, sys
-import os
-import re
-import requests
-import stanza
-import time
+import json, logging
 import spacy
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
